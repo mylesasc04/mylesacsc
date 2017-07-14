@@ -8,7 +8,7 @@ console.log('Welcome to your Adventure! Heres your cash, you have 1,000 dollars!
 var inventory = ['hyrule sword? ','potion? ','shield? ','bow?'];
 
 //prompt the user if they want to buy an item
-while(bank>0)
+while(bank>100)
 for(var x =0; x < inventory.length; x++){
 var answer = prompt('would you like to purchase a ' + inventory[x]);
 if(answer === 'yes'|| answer === 'yes please'){
