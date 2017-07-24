@@ -58,7 +58,7 @@ function keyPressed(){
 }
 function draw(){
     background("black");
-    fill("green");
+    fill("blue");
     rect(xShip, 545, 25, 50);
     
    // var xAlien = random(-[2], [575]);
