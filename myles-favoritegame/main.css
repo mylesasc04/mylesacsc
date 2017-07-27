@@ -1,0 +1,34 @@
+.jumbotron{
+    background-image: url("assets/Sonic1_title.png");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-shadow: 1px 0px 7px white;
+    font-family: Arial;
+    text-align: center;
+    border: solid 3px white;
+}
+.navbar-brand{
+    background-color: black
+}
+.collapsenavbar-collapse{
+    background-color: black
+}
+
+.input-group{
+    background-color: blue;
+    color: white;
+}
+body{
+    background-image: url("http://cdn.wallpapersafari.com/71/7/L0U7A5.jpg");
+    border: solid 5px lightblue;
+}
+
+.row {
+    text-align: center;
+}
+
+.video{
+    text-align: center;
+    border: solid 5px blue;
+}
