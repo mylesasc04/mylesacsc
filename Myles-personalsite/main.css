@@ -1,0 +1,35 @@
+body{
+    background-image: url("assets/image.jpg");
+    background-size: cover;
+}
+
+.navbar{
+    background: transparent;
+    color: white;
+    border: 0px;
+}
+
+.jumbotron{
+    background: transparent;
+    color: lightblue;
+    text-align: center;
+    text-shadow: 5px 5px black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}   
+
+.pics{
+text-align: center;
+}
+.ppic
+{
+    text-align: middle;
+
+}
+.h3
+{
+    color: white;
+}
+
+.col-md-4{
+    background-color: black;
+}

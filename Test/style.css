@@ -1,12 +1,17 @@
 body
 {
-    background-image: url("Assets/Cat v Dog.gif");
+    background-image: url("Assets/nebula.jpg");
     background-size: cover;
 }
 
 .jumbotron
 {
     background: transparent;
+}
+.jumbotron .btn-lg {
+  padding: 10px 20px;
+  font-weight: bold;
+  text-shadow: 40px black;
 }
 
 /* .btn btn-lg btn-default */
@@ -21,4 +26,3 @@ body
 {
 background-color: red;
 }
-
