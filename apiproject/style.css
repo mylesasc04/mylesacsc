@@ -1,0 +1,16 @@
+.jumbotron
+{
+    text-align: center;
+    background: transparent;
+    padding: 100px;
+    background-image: url("https://unsplash.it/1000/1000")
+}
+
+.navbar-default
+{
+    background: black;
+}
+
+.body {
+    background-image: url("https://unsplash.it/1000/1000")
+}
