@@ -1,0 +1,48 @@
+body{
+    background: url("assets/space.jpg");
+    background-size: cover;
+}
+
+ /*dont touch  */
+@media screen and (min-width:768px){
+    .navbar-brand-centered {
+        position: absolute;
+        left: 50%;
+        display: block;
+        width: 160px;
+        text-align: center;
+        background: transparent;
+    }
+    .navbar>.container .navbar-brand-centered, 
+    .navbar>.container-fluid .navbar-brand-centered {
+        margin-left: -80px;
+        background: black;
+    }
+}
+/*dont touch  */
+
+.navbar
+{
+    color: white;
+    background: black;
+    border: 0px;
+}
+
+.jumbotron
+{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: white;
+    text-align: center;
+    border: 10px solid white;
+    color: white;
+    text-shadow: 1px 1px 1px #000, 
+               3px 3px 5px blue; 
+}
+
+#jumbo1
+{
+    text-align: center;
+    background: white;
+    opacity: 1;
+    color: black;
+}

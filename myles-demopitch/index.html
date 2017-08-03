@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <meta name="google-signin-client_id" content="279886780009-oi35kt221e8vvvdtc45j285nh8bmj01h.googleusercontent.com">
+    <!--279886780009-oi35kt221e8vvvdtc45j285nh8bmj01h.apps.googleusercontent.com  -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <script src= "app.js"></script>
+
+    <title> HoodBrella </title>
+
+    <style>
+        #map {
+            width: 100%;
+            height: 400px;
+            background-color: grey;
+        }
+    </style>
+</head>
+
+<body>
+    <!--nav bar (keep outside the first div) -->
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-brand-centered">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+                <div class="navbar-brand navbar-brand-centered"><img alt="Pluvio" src="assets/umb.png"></div>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbar-brand-centered">
+                <ul class="nav navbar-nav">
+                    <li><a href="file:///C:/Users/ASC%20Guest/Desktop/Profile/copteen/copteen.html">Home</a></li>
+                    <li><a href="Events.html">Prducts</a></li>
+                   
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                
+                    <li><a href="podcast.html"> Customer service</a></li>
+                    <a href=""> 
+                        <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+                    </a>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <!--Nav Bar  -->
+
+    <!-- jumbo -->
+<div class="container">
+    <div class="jumbotron">
+        <h1>About Pluvio</h1>
+        <img src="assets/woman.jpg" alt="">
+        <h2> Our product delivers personalized forecasts with ways to beat rain. If you forgot your umbrella or jacket on an unexpected rainy day, NO WORRIES ! With Pluvio, we locate the nearest store that has ponchos and umbrellas. </h2>
+        <p><a class="btn btn-primary btn-lg" href="http://www.dressbyweather.com/-122.41941550000001/37.7749295/f" role="button">Check it Out!</a></p>
+
+    <div class="g-signin2" data-onsuccess="onSignIn"></div>
+    <a href="#" class"signout" onclick="onSignOut();">Sign out</a>
+    </div>
+<!--user data  -->
+<!--User Data-->
+<div class="userData">
+    <h2>E-MAIL:</h2>
+    <p class="email">example@example.com</p>
+</div>
+
+    <!-- jumbo -->
+
+    <!-- jumbo -->
+    <div class="container">
+        <div class="jumbotron">
+ <h1> Compared to Our competitors</h1>
+<h3> Such as Poncho... Our App actually helps you choose what to wear before you go outside.</h3>
+        </div>
+
+        <!-- jumbo -->
+
+
+    <!-- jumbo -->
+    <div class="container">
+        <div class="jumbotron" id="jumbo1">
+            <h1>Our Locations</h1>
+           
+        <div id="map"></div>
+        <script>
+            function initMap() {
+                var uluru = { lat: 40.7421710, lng: -74.0050920 };
+                var map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 8,
+                    center: uluru
+                });
+                var marker = new google.maps.Marker({
+                    position: uluru,
+                    map: map
+                });
+            }
+
+        </script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD6X9Ch2x0Gr3G5zH9rsbnAeyHgMuUkVxE&callback=initMap">
+
+        </script>
+        </div>
+
+        <!-- jumbo -->
+</body>
+
+</html>
