@@ -3,7 +3,7 @@ function onSignIn(googleUser) {
     var profile = googleUser.getBasicProfile();
     //change userName text, img source, & email text based on profile
     $(".userName").text(profile.getName());
-    $("img").attr("src", profile.getImageUrl());
+    $("#pfp").attr("src", profile.getImageUrl());
     $(".email").text(profile.getEmail());
 }
 
@@ -14,7 +14,7 @@ function onSignOut() {
         console.log('User signed out.')
         //setting back to default
         $(".userName").text("USER_NAME");
-        $("img").attr("src", "assets/placeholder.png");
+        $("#pfp").attr("src", "assets/placeholder.png");
         $(".email").text("example@example.com");
     });
 }

@@ -34,8 +34,8 @@ body{
     background: white;
     text-align: center;
     border: 10px solid white;
-    color: white;
-    text-shadow: 1px 1px 1px #000, 
+    color: black;
+    text-shadow: 1px 1px 1px white, 
                3px 3px 5px blue; 
 }
 
