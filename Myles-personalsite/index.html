@@ -23,110 +23,112 @@
   href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
 <script src= "app.js"></script>
+
+<style>
+  #map {
+    width: 100%;
+    height: 400px;
+    background-color: grey;
+  }
+</style>
+
+
 </head>
 <body>
-    <div class= "big-container"></div>
-    <nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">MD</a>
-    </div>
+  <div class="fixed">
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="https://www.linkedin.com/in/myles-duah-b43334147/">LinkedIn <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Resume</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
-          </ul>
-        </li>
-      </ul>
-      <form class="navbar-form navbar-left">
-        <div class="form-group">
-          <!-- <input type="text" class="form-control" placeholder="Search"> -->
-        </div>
-        <!-- <button type="submit" class="btn btn-default">Submit</button> -->
-      </form>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="https://www.youtube.com/channel/UCsjnJHJkz5UiMKPhk7LNccA">Youtube Channel</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
+    <div class="bg transition">
+
+      <li>
+        <a class= "bttn1" href="https://www.linkedin.com/in/myles-duah-b43334147/">LinkedIn</a>
+      </li>    
+      <li>
+        <a class= "bttn2" href="https://docs.google.com/document/d/1J5UieETimpbAAfpzoOOKelUbDEZWZ-BF-1XeLRzK1dY/edit#">Resume</a>
+      </li>
+      <li>
+        <a  class= "bttn3" href="https://github.com/mylesasc04" role= "button">GitHub</a>
+      </li>
+       
+
+</div>
+  </div>
 </div>
 
-<div class="jumbotron">
+<div class="jumbotron" id="topJumbo">
     <div class="ppic">
-  <img src="assets/myles.jpg" alt="" class="img-thumbnail">
-  </div>
-  <h1 class="animated infinite pulse">Hey I'm Myles Duah!</h1>
-  <h2 class="animated zoomIn"> New York- Based Rising Computer Software Engineer</h2>
-  <p class="animated zoomIn"> Hey, My name is Myles Kyei Duah! I am current student at the All Star Code summer Intensive and I also attend The Michael J. Petrides School In Staten Island.</p>
-  <p><a class="btn btn-primary btn-lg" href="https://github.com/mylesasc04" role="button">Github</a></p>
-  </div>
-
-</nav>
-<div class="pics">
-    <h3>Completed Projects</h3>
-    <div class="row">
-        <div class="col-md-4">
-            <div class="thumbnail">
-                <img src="http://a1.mzstatic.com/us/r30/Purple71/v4/cd/0f/22/cd0f223f-6f5f-65ef-8390-d8ea5456f7ed/screen696x696.jpeg" alt="">
-                    <div class="caption">
-                        <h3>Spce Invaders</h3>
-                        <p>Space Invaders Project</p>
-                         <a href="https://github.com/mylesasc04/mylesacsc/tree/master/myles-spaceinvaders" class="btn btn-default" role="button">Check it Out</a></p>
-                    </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="thumbnail">
-                <img src="http://www.rubyinside.com/wp-content/uploads/2011/12/game2.jpg" alt="">
-                    <div class="caption">
-                        <h3>Paddle The Game</h3>
-                        <p>Paddle game Project</p>
-                        <p><a href="https://github.com/mylesasc04/mylesacsc/tree/master/myles-bounce" class="btn btn-primary" role="button">Check It Out</a> 
-                    </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="thumbnail">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUKO5pbxaqr9G2mf7Mqofml1ThsZscKDZaqP244q8YSsuEiIf9UQ" alt="">
-                    <div class="caption">
-                        <h3>Battle Ship Game</h3>
-                        <p> Battleship Project</p>
-                         <a href="https://github.com/mylesasc04/mylesacsc/tree/master/myles-battleship" class="btn btn-default" role="button">Check It Out</a></p>
-                    </div>
-            </div>
-        </div>
+      <img src="assets/myles.jpg" alt="" class="img-thumbnail">
     </div>
-<!-- last div -->
+    <h1 class="animated pulse">Hey I'm Myles Duah!</h1>
+    <h2 class="animated zoomIn"> New York- Based Rising Computer Software Engineer</h2>
+    <p class="animated zoomIn"> Hey, My name is Myles Kyei Duah! I am current student at the All Star Code summer Intensive and I also attend The Michael J. Petrides School In Staten Island.</p>
+    <p><a class="btn btn-primary btn-lg" href="https://github.com/mylesasc04" role="button">Github</a></p>
+<a href="#bottom" class="scroll down" id= "scrolld">SCROLL DOWN</a>
 </div>
+
+<div class= "container" id="bottom">
+  <div class="pics">
+    <h3>Completed Projects</h3>
+      <div class="row">
+        <div class="col-md-4">
+            <div class="thumbnail">
+            <img src="http://a1.mzstatic.com/us/r30/Purple71/v4/cd/0f/22/cd0f223f-6f5f-65ef-8390-d8ea5456f7ed/screen696x696.jpeg" alt="">
+              <div class="caption">
+                <h3>Space Invaders</h3>
+                <p>Space Invaders Project</p>
+                <a href="https://github.com/mylesasc04/mylesacsc/tree/master/myles-spaceinvaders" target="_blank" class="btn btn-default" role="button">Check it Out</a>
+              </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <img src="http://www.rubyinside.com/wp-content/uploads/2011/12/game2.jpg" alt="">
+            <div class="caption">
+                <h3>Paddle The Game</h3>
+                <p>Paddle game Project</p>
+                <p><a href="https://github.com/mylesasc04/mylesacsc/tree/master/myles-bounce" target="_blank" class="btn btn-primary" role="button">Check It Out</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="thumbnail">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUKO5pbxaqr9G2mf7Mqofml1ThsZscKDZaqP244q8YSsuEiIf9UQ" alt="">
+            <div class="caption">
+              <h3>Battle Ship Game</h3>
+              <p> Battleship Project</p>
+              <p><a href="https://github.com/mylesasc04/mylesacsc/tree/master/myles-battleship" target="_blank" class="btn btn-default" role="button">Check It Out</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+        <div class="jumbotron">
+          <h1>Wanna Meet Up?</h1>
+          <h2> Let's Meet up at my Local Library </h2>
+          <div id="map"></div>
+          <script>
+            function initMap() {
+              var uluru = { lat: 40.6262530, lng: -74.0778900 };
+              var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 16,
+                center: uluru
+              });
+              var marker = new google.maps.Marker({
+                position: uluru,
+                map: map
+              });
+            }
+          </script>
+          <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD6X9Ch2x0Gr3G5zH9rsbnAeyHgMuUkVxE&callback=initMap">
+
+</script>
+
+      <p><a class="btn btn-primary btn-lg" href="https://www.google.com/maps/dir/''/stapleton+library+hours+staten+island/@40.6262313,-74.1479298,12z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x89c24e4b38d036d1:0x3f44ecb5916b90d1!2m2!1d-74.0778899!2d40.6262525" role="button">Get Directions!</a></p>
+    </div>
+
+    <a href="#top" class="scroll up" id="scrollu">SCROLL UP</a>
+    <!-- last div -->
+  </div>
 </body>
 
 </html>
